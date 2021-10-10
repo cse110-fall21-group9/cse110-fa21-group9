@@ -1,20 +1,20 @@
 # Meeting Minutes
 ## Meeting Information
-**Meeting Date/Time:** meeting_date, meeting_time  
-**Meeting Purpose:** meeting_purpose  
-**Meeting Location:** meeting_location  
-**Note Taker:** note_taker  
+**Meeting Date/Time:** 9.Oct.2021, 22:40  
+**Meeting Purpose:** Discussion over assignments  
+**Meeting Location:** Zoom  
+**Note Taker:** Chengjing Yuan    
 
 ## Attendees
 People who attended(8/8):
--Chengjing Yuan
--Danny Nguyen
--Dorothy Chou
--Guy Nir
--Joshua Singer
--Reshab Mehta
--Stefanie Dao
--Zane Wang
+-Chengjing Yuan  
+-Danny Nguyen  
+-Dorothy Chou  
+-Guy Nir  
+-Joshua Singer  
+-Reshab Mehta  
+-Stefanie Dao  
+-Zane Wang  
 
 ## Agenda Items
 
