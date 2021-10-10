@@ -20,7 +20,7 @@ People who attended (8/8):
 People who absent (0):  
 
 
-## Leftover 
+## Leftover From Last Meeting
 NONE
 
 
