@@ -39,7 +39,7 @@ Group Setup | • Decide team name <br>• Choose team logo <br>
 | Done| Team Name: Powell Ranger | ALL | N/A |
 | Done| Contract Setup | ALL | N/A |
 | Done| Team Logo: Check Slack | ALL | N/A |
-| ON PRGOGRESS| Team Video intro | ALL | OCT.14|
+| ON PROGRESS| Team Video intro | ALL | OCT.14|
 
 ## Other Notes & Information
 N/A
