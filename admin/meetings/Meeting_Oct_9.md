@@ -36,9 +36,9 @@ Group Setup | • Decide team name <br>• Choose team logo <br>
 | Status | Item | Responsible | Due Date |
 | ---- | ---- | ---- | ---- |
 | Done| Add Contact | ALL | N/A |
-| Done| Team Name | ALL | N/A |
+| Done| Team Name: Powell Ranger | ALL | N/A |
 | Done| Contract Setup | ALL | N/A |
-| Done| Team Logo | ALL | N/A |
+| Done| Team Logo: Check Slack | ALL | N/A |
 
 ## Other Notes & Information
 N/A
