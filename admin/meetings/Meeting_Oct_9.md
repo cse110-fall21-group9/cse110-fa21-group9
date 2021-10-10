@@ -6,7 +6,7 @@
 **Note Taker:** Chengjing Yuan    
 
 ## Attendees
-People who attended(8/8):  
+People who attended (8/8):  
 -Chengjing Yuan  
 -Danny Nguyen  
 -Dorothy Chou  
@@ -17,7 +17,7 @@ People who attended(8/8):
 -Zane Wang  
 
 ## Absent
-People who absent(0):  
+People who absent (0):  
 
 
 ## Leftover 
