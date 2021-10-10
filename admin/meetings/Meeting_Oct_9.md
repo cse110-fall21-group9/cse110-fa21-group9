@@ -1,12 +1,12 @@
 # Meeting Minutes
 ## Meeting Information
 **Meeting Date/Time:** 9.Oct.2021, 22:40  
-**Meeting Purpose:** Discussion over assignments  
+**Meeting Purpose:** Group Discussion  
 **Meeting Location:** Zoom  
 **Note Taker:** Chengjing Yuan    
 
 ## Attendees
-People who attended(8/8):
+People who attended(8/8):  
 -Chengjing Yuan  
 -Danny Nguyen  
 -Dorothy Chou  
@@ -16,23 +16,29 @@ People who attended(8/8):
 -Stefanie Dao  
 -Zane Wang  
 
-## Agenda Items
+## Absent
+People who absent(0):  
+
+
+## Leftover 
+NONE
+
+
+## Today's Agenda
 
 Item | Description
 ---- | ----
-Agenda Item 1 | • <br>• <br>• <br>• <br>• 
-Agenda Item 2 | • <br>• <br>• <br>• <br>• 
-
-## Discussion Items
-Item | Who | Notes |
----- | ---- | ---- |
-item | who | notes |
+Modify Contract | • Add contact information<br>• Discuss contract detail<br>
+Group Setup | • Decide team name <br>• Choose team logo <br>
 
 
 ## Action Items
-| Done? | Item | Responsible | Due Date |
+| Status | Item | Responsible | Due Date |
 | ---- | ---- | ---- | ---- |
-| | item | who | due_date |
+| Done| Add Contact | ALL | N/A |
+| Done| Team Name | ALL | N/A |
+| Done| Contract Setup | ALL | N/A |
+| Done| Team Logo | ALL | N/A |
 
 ## Other Notes & Information
 N/A
