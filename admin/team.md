@@ -15,7 +15,10 @@
 
 ###  Guy Nir:
 
-###  Joshua Singer:
+###  Joshua Singer [@jjsinger11](https://github.com/jjsinger11):
+      Hi! When I'm not coding, I love to surf and skate with my friends. I'm so glad I came to San Diego, because the beaches
+      are so nice and it's always warm here. In my free time, I love to explore new places on my bike and I've made it my mission to
+      see all of San Deigo on it before I leave. If you see me around, just say hi!
 
 ###  Reshab Mehta:
 
