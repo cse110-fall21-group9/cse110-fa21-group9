@@ -10,6 +10,7 @@
       Hi, I am a 67.
      
 ###  Danny Nguyen:
+      Hi, I'm Danny. I'm currently a 3rd year CS major in Warren College. I am currently looking to pursue a career in product development. Outside of school, I enjoy videos games and powerlifting.
 
 ###  Dorothy Chou:
 
