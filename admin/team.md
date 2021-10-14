@@ -21,7 +21,8 @@
       are so nice and it's always warm here. In my free time, I love to explore new places on my bike and I've made it my mission to
       see all of San Deigo on it before I leave. If you see me around, just say hi!
 
-###  Reshab Mehta:
+###  Reshab Mehta [@Reshab18](https://github.com/Reshab18):
+     Hi, I'm Reshab. I am a 4th-year Math-CS major in Sixth College. My goal is to become a full-stack software developer. Besides studies, I like to play basketball, badminton, and video games. I love to meet new people and make friends. 
 
 ###  Stefanie Dao:
 
