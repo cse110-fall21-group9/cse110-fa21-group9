@@ -14,7 +14,8 @@
 
 ###  Dorothy Chou:
 
-###  Guy Nir:
+###  Guy Nir [@haxoc](https://github.com/haxoc) :
+      Hello! I'm Guy.. I am a second year CS major. My hobbies include biking, sailing and robotics.
 
 ###  Joshua Singer [@jjsinger11](https://github.com/jjsinger11):
       Hi, I'm Josh! When I'm not coding, I love to surf and skate with my friends. I'm so glad I came to San Diego, because the beaches
