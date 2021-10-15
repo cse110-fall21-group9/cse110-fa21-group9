@@ -12,7 +12,9 @@
 ###  Danny Nguyen:
       Hi, I'm Danny. I'm currently a 3rd year CS major in Warren College. I am currently looking to pursue a career in product development. Outside of school, I enjoy videos games and powerlifting.
 
-###  Dorothy Chou:
+###  Dorothy Chou [@dorothyychou](https://github.com/dorothyychou):
+      Hello, I am Dorothy. I am a third year Math-CS major. I am currently looking for experience in software development.
+      In my free time, I enjoy photography, painting, and spending time with friends.
 
 ###  Guy Nir [@haxoc](https://github.com/haxoc) :
       Hello! I'm Guy.. I am a second year CS major. My hobbies include biking, sailing and robotics.
