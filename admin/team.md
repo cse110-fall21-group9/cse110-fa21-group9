@@ -25,7 +25,7 @@
 ###  Reshab Mehta [@Reshab18](https://github.com/Reshab18):
      Hi, I'm Reshab. I am a 4th-year Math-CS major in Sixth College. My goal is to become a full-stack software developer. Besides studies, I like to play basketball, badminton, and video games. I love to meet new people and make friends. 
 
-###  Stefanie Dao [@StefanieDao] (https://github.com/StefanieDao):
+###  Stefanie Dao [@StefanieDao](https://github.com/StefanieDao):
       Hi, I'm Stefanie. I love to do creative and challenging things as well as interact with other people. 
       I enjoy watching figure skating and think about random things when I have free time. 
       Looking forward to building a great project with you all! 
