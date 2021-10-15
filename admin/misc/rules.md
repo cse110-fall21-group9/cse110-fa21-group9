@@ -5,7 +5,7 @@
   **Group 9**  
   **Instructor**: _Powell, Thomas Allan._   
   **Manager**: _Raaghav Ravi_    
-  **Team Name**: Powell Ranger      
+  **Team Name**: **Powell Ranger**      
   **Team Member Info:**  
   
   Name|Email|Phone
