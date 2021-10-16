@@ -1,8 +1,8 @@
-# Group 9:Powell Ranger
+# Group 9: import pandas
 
 ## - Group MOTTO
 
-### GO!GO! Powell Rangers!
+### pandas together strong
 
 ## - Group Members
 
