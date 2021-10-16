@@ -7,7 +7,7 @@
 ## - Group Members
 
 ###  Chengjing Yuan [@Chengjing-314](https://github.com/Chengjing-314): 
-      Hi, I am a 67.
+      Hi, I am Chengjing. I m a thrid year Computer Engineering Major.
      
 ###  Danny Nguyen:
       Hi, I'm Danny. I'm currently a 3rd year CS major in Warren College. I am currently looking to pursue a career in product development. Outside of school, I enjoy videos games and powerlifting.
