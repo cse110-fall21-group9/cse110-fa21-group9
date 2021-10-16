@@ -2,7 +2,7 @@
 
 ## - Group MOTTO
 
-### pandas together strong
+### pandas together **STRONG**
 
 ## - Group Members
 
