@@ -19,6 +19,18 @@ People who attended (8/8):
 ## Absent
 People who absent (0):  
 
+## Roles
+
+Name | Role
+-----|----
+Chengjing Yuan | Team Lead
+Danny Nguyen   | Coder
+Dorothy Chou   | UX/UI Desinger
+Guy Nir        | Coder
+Joshua Singer  | Coder
+Reshab Mehta  |  Tester
+Stefanie Dao  |  Tester
+Zane Wang     |  Team Lead
 
 ## Leftover From Last Meeting
 NONE
@@ -39,8 +51,11 @@ Group Setup | • Decide team name <br>• Choose team logo <br>
 | Done| Team Name: Powell Ranger | ALL | N/A |
 | Done| Contract Setup | ALL | N/A |
 | Done| Team Logo: Check Slack | ALL | N/A |
-| ON PROGRESS| Team Video intro | ALL | OCT.14|
-| ON PROGRESS| Team Page Setup | ALL | OCT.14|
+| ON PROGRESS| Team Video intro | ALL | OCT.16|
+| ON PROGRESS| Team Page Setup | ALL | OCT.16|
 
 ## Other Notes & Information
 N/A
+
+## Conclusion & Take Away
+For a "project team" there would be cases that someone not able to show up. We need to make the video as soon as possible. 
