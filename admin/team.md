@@ -31,4 +31,8 @@
       Hi, I'm Stefanie. I love to do creative and challenging things as well as interact with other people. 
       I enjoy watching figure skating and think about random things when I have free time. 
       Looking forward to building a great project with you all! 
-###  Zane Wang:
+
+###  Zane Wang [@Lord-Scrubington-II](https://github.com/Lord-Scrubington-II):
+      Hi, I'm Zane. I'm a 3rd year whose majors are Maths-CompSci and ICAM (Interdisciplinary Computing and the Arts). I study computer science because   
+      I want to become a game developer! Outside of university, I love video games and anime, and frequently enjoy playing/listening to Baroque music.    
+      I'm excited to put my engineering hat on and help you make something we can be proud of.
