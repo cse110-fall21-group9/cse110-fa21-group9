@@ -56,3 +56,6 @@ Group Setup | • Decide team name <br>• Choose team logo <br>
 
 ## Other Notes & Information
 N/A
+
+## Conclusion & Take Away
+For a "project team" there would be cases that someone not able to show up. We need to make the video as soon as possible. 
