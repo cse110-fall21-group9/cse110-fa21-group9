@@ -1,11 +1,11 @@
-# Powell Ranger - Working Agreement
+# `import pandas` - Working Agreement
 
 ## 1) Group Identification
 
   **Group 9**  
   **Instructor**: _Powell, Thomas Allan._   
   **Manager**: _Raaghav Ravi_    
-  **Team Name**: **Powell Ranger**      
+  **Team Name**: `import pandas`      
   **Team Member Info:**  
   
   Name|Email|Phone

@@ -1,13 +1,13 @@
-# Group 9:Powell Ranger
+# Group 9: import pandas
 
 ## - Group MOTTO
 
-### GO!GO! Powell Rangers!
+### pandas together **STRONG**
 
 ## - Group Members
 
 ###  Chengjing Yuan [@Chengjing-314](https://github.com/Chengjing-314): 
-      Hi, I am Chengjing. I m a thrid year Computer Engineering Major.
+      Hi, I am Chengjing. I m a thrid year Computer Engineering Major. I am interested in robotics and control.
      
 ###  Danny Nguyen:
       Hi, I'm Danny. I'm currently a 3rd year CS major in Warren College. I am currently looking to pursue a career in product development. Outside of school, I enjoy videos games and powerlifting.
