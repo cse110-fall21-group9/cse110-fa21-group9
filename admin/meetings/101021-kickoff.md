@@ -19,6 +19,18 @@ People who attended (8/8):
 ## Absent
 People who absent (0):  
 
+## Roles
+
+Name | Role
+-----|----
+Chengjing Yuan | Team Lead
+Danny Nguyen   | Coder
+Dorothy Chou   | UX/UI Desinger
+Guy Nir        | Coder
+Joshua Singer  | Coder
+Reshab Mehta  |  Tester
+Stefanie Dao  |  Tester
+Zane Wang     |  Team Lead
 
 ## Leftover From Last Meeting
 NONE
