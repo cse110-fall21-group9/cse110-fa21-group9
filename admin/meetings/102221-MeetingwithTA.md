@@ -33,8 +33,8 @@ People who absent:
 
 ## Action Items
 | Done? | Item | Responsible | Due Date |
-| | ---- | ---- | ---- |
-| | item | who | due_date |
+| ---- | ---- | ---- | ---- |
+| In Progress | Brainstorming | ALL | Monday Oct 22 |
 
 ## Other Notes & Information
 N/A
