@@ -34,7 +34,7 @@ People who absent:
 ## Action Items
 | Done? | Item | Responsible | Due Date |
 | ---- | ---- | ---- | ---- |
-| In Progress | Brainstorming | ALL | Monday Oct 22 |
+| In Progress | Brainstorming | ALL | Monday Oct 25 |
 
 ## Other Notes & Information
 N/A
