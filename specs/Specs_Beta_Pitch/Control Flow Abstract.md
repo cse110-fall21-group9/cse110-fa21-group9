@@ -19,24 +19,28 @@ Author: Zane Wang
 
 ## Home Screen [`home`](#home-screen-home)
 
-1. The first thing the user will see is the home screen.
+1. The user views the home screen.
 2. The user can search for recipes, sort recipes, make a new recipe, import a recipe card package `.rcpkg`, edit a recipe, view a recipe, open global edit mode, or open recipe options.
-   1. If the user searches for recipes or sorts recipes, update display list and return to [`home`](#home-screen-home).
+   1. If the user searches for recipes or sorts recipes, [`update`](#recipe-library-transformations-recipe-library-transformations) display list and return to [`home`](#home-screen-home).
    2. If user makes or edits a recipe, GOTO [`local-edit`](#local-edit-mode-local-edit).
       1. making a new recipe will create an empty recipe card first before opening it for edits.
    3. If user views a recipe, GOTO [`rec-view`](#recipe-view-mode-rec-view).
    1. If user opens global edit mode, give edit transformations to recipe card groups and GOTO [`global-edit`](#global-edit-mode-global-edit).
-   2. If user opens recipe options on a specific recipe, display recipe options submenu `card-options`.
-4. ### Submenu: Recipe Card Options `card-options`
+   2. If user elects to `import` a `.rcpkg` file, prompt user for location of file in file browser OR find recipe on web.
+      1. After getting a confirmation, [`update`](#recipe-library-transformations-recipe-library-transformations) recipe library.
+   3. If user opens recipe options on a specific recipe, display recipe options submenu `card-options`.
+3. ### Submenu: Recipe Card Options `card-options`
    1. Either edit this recipe OR GOTO [`recipe-library-transformations`](#recipe-library-transformations-recipe-library-transformations).
       1. If editing a recipe, GOTO [`home.2.ii`](#home-screen-home).
    2. If user doesn't cancel, apply recipe library transformation to selected recipe.
-   3. Update display list and return to [`home`](#home-screen-home).
+   3. [`update`](#recipe-library-transformations-recipe-library-transformations) display list and return to [`home`](#home-screen-home).
 
 ### Recipe Library Transformations [`recipe-library-transformations`](#recipe-library-transformations-recipe-library-transformations)
-1. User can delete, add to favourites, export, or add tags.
+1. User can delete, add to favourites, `export`, or add tags.
    1. Deleting, adding tags, and favourites will re-arrange the main menu display if appropriate.
    2. Exporting the selected recipe(s) will prompt the user to name the export (the default will be an ID followed by the date); then the app will dump a `.rcpkg` file into the app's `exports` directory.
+2. [`update`](#recipe-library-transformations-recipe-library-transformations): if the user acquires new recipe cards or changes their filtering terms, [`update`](#recipe-library-transformations-recipe-library-transformations) displayed cards on home screen.
+   1.  Several different tasks will lead to this operation being performed. 
 
 ## Local Edit Mode [`local-edit`](#local-edit-mode-local-edit)
 1. Also known as the Compose Recipe Form.
@@ -52,7 +56,7 @@ Author: Zane Wang
    1. If user cancels, return to [`home`](#home-screen-home).
 2. GOTO [`recipe-library-transformations`](#recipe-library-transformations-recipe-library-transformations).
 3. Apply recipe library transformations to all selected elements.
-4. Update display list and return to [`home`](#home-screen-home).
+4. [`update`](#recipe-library-transformations-recipe-library-transformations) display list and return to [`home`](#home-screen-home).
 
 ## Recipe View Mode [`rec-view`](#recipe-view-mode-rec-view)
 1. User can choose to view either ingredients or directions, or exit.
@@ -62,11 +66,11 @@ Author: Zane Wang
 2. User can also choose to set the `kitchen-timer`.
 3. ### Submenu: Kitchen Timer `kitchen-timer`
       1. User sets time
-      2. User presses play or clear
-         1. clear -> timer resets to 0
-         2. play -> timer counts down
-      3. When timer is counting down, pressing pause will pause it and pressing clear will clear the timer.
-      4. When the timer reaches 0 by natural countdown, it will beep until the clear button is pressed, 1 minute passes, or this screen is exited.
+      2. User presses `play` or `clear`
+         1. `clear` -> timer resets to 0
+         2. `play` -> timer counts down
+      3. When timer is counting down, pressing `pause` will pause it and pressing clear will clear the timer.
+      4. When the timer reaches 0 by natural countdown, it will beep until the `clear` button is pressed, 1 minute passes, or this screen is exited.
 
 
 
