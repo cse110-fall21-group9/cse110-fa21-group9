@@ -9,7 +9,7 @@ Author: Zane Wang
    2. Exporting recipe cards will produce a `.rcpkg` file that can be sent to another user, who will be able to import the received recipe cards encoded in the `.rcpkg` file.
 2. [`local-edit`](#local-edit-mode-local-edit) vs [`global-edit`](#global-edit-mode-global-edit)
    1. [`local-edit`](#local-edit-mode-local-edit) refers to edits made to the data contained in a single recipe file.
-   2. [`global-edit`](#global-edit-mode-global-edit)(#global-edit-mode-global-edit) refers to edits made to the recipe libary on the level of whole recipe cards, e.g. deleting a recipe card, exporting a recipe card package `(.rcpkg)`, adding to favourites, etc.
+   2. [`global-edit`](#global-edit-mode-global-edit) refers to edits made to the recipe libary on the level of whole recipe cards, e.g. deleting a recipe card, exporting a recipe card package `(.rcpkg)`, adding to favourites, etc.
 
 ## Delivery & Deployment
 
