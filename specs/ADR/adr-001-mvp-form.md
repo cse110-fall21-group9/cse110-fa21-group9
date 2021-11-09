@@ -6,7 +6,7 @@
 ## Context and Problem Statement
 
 At this time, several of our teammates seem to have dropped this course.  
-Given our newly discovered personnel shortage, how should be restructure the form of our MVP?
+Given our newly discovered personnel shortage, how should we restructure the form of our MVP?
 
 ## Decision Drivers <!-- optional -->
 
