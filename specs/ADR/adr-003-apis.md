@@ -24,12 +24,12 @@ Given our new MVP statement, what APIs should we be using to facilitate the more
 
 ## Decision Outcome
 
-Chosen option: EDAMAM. Awaiting input of API & Backend developers to elaborate.
+Chosen option: **Spponacular**. From testing both Spoonacular and EDMAM, even though EDMAM is simpler, it didn't provide us with recipe instructions. Instructions are vital for our "digital cookbook" application therefore we chose Spoonacular.
 
 ### Positive Consequences 
 
-*  Insert here
+*  Gives a lot of flexibility in terms of the information we would want to have in the cookbook.
 
 ### Negative Consequences
 
-* Insert here
+* A little more cumbersome to use since in addition to the query API call, it requires multiple calls per recipe: instructions and general info and ingredients.
