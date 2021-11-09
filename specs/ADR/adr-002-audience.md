@@ -1,4 +1,4 @@
-# ADR - 001: Target Audience
+# ADR - 002: Target Audience
 
 * Status: Accepted, proceeding with development as planned
 * Date: 11/1/2021
@@ -9,7 +9,7 @@ Given our new MVP statement, what people should we be targeting as our primary a
 
 ## Decision Drivers 
 
-* The new form of our app is a cookbook with sharing options 
+* The new form of our app is a cookbook with minimal sharing & searching options. What kind of user is this app amenable to?
 
 ## Considered Options
 
@@ -23,7 +23,10 @@ Chosen option: home cooks. This is the most amenable to our MVP statement, which
 
 ### Positive Consequences 
 
-* Our view of our target audience becomes clearer. Moreover, we have a better idea of what our app should look like: no-nonsense, to-the-point, not replete with silly colloquialisms to grab the attention of the average person in our age group.
+* Our view of our target audience becomes clearer. Moreover, we have a better idea of what our app should look like: 
+  * no-nonsense
+  * to-the-point
+  * not replete with silly colloquialisms to grab the attention of the average person in our age group.
 
 ### Negative Consequences
 
