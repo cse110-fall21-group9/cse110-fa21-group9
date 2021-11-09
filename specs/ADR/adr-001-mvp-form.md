@@ -1,4 +1,4 @@
-# ADR - 001: 
+# ADR - 001: Form of MVP
 
 * Status: Accepted, proceeding with development as planned
 * Date: 11/1/2021
@@ -12,8 +12,6 @@ Given our newly discovered personnel shortage, how should be restructure the for
 
 * General lack of manpower
   * Case in point: if both team leads completely avoid coding, we are left with 5 while a team fo 12 is left with 10 - giving them twice the people to split tasks between than us.
-* New audience
-  * Management has decided that the best target for our app should be home cooks, as catering to those who already understand the fundamentals of cooking should decrease the number of hand-holding features we need to implement. Overall, this will reduce our development overhead.
 
 ## Considered Options
 
