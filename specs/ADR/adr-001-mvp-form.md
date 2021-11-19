@@ -1,14 +1,14 @@
 # ADR - 001: Form of MVP
 
 * Status: Accepted, proceeding with development as planned
-* Date: 11/1/2021
+* Date: 11/1/2021, Updated on: 11/11
 
 ## Context and Problem Statement
 
 At this time, several of our teammates seem to have dropped this course.  
 Given our newly discovered personnel shortage, how should we restructure the form of our MVP?
 
-## Decision Drivers <!-- optional -->
+## Decision Drivers
 
 * General lack of manpower
   * Case in point: if both team leads completely avoid coding, we are left with 5 while a team fo 12 is left with 10 - giving them twice the people to split tasks between than us.
@@ -21,18 +21,18 @@ Given our newly discovered personnel shortage, how should we restructure the for
 
 ## Decision Outcome
 
-Chosen option: a **fully local** app using the index.html file as the "executable" and an extremely minimal backend, while also allowing for import-export. This is because it can help us best leverage our minimal human resources and completely cut out a potentially dangerous rabbit hole which would have been "true" backend development. However, we will allow for import-export as it gives our app a unique trait, and largely involves carrying out development operations that we would have had to do regardless.
+Chosen option: a **fully local** app using the index.html file as the "executable" and an extremely minimal backend, while also allowing for import-export. Furthermore, we will use the SPA (single-page application) architectural/control-flow pattern to deliver our app. This is because it can help us best leverage our minimal human resources and completely cut out a potentially dangerous rabbit hole which would have been "true" backend development. However, we will allow for import-export as it gives our app a unique trait, and largely involves carrying out development operations that we would have had to do regardless.
 
-### Positive Consequences <!-- optional -->
+### Positive Consequences
 
 * Our lean crew should be far less overworked than otherwise, while being able to focus on delivering a decent core experience with only a few extra features.
 
-### Negative Consequences <!-- optional -->
+### Negative Consequences
 
 * No backend means less connectivity between users.
 * Also, our backend engineers may have a somewhat smaller number of "cool things" to do, though they certainly will still have plenty of tasks to complete.
 
-## Pros and Cons of the Options <!-- optional -->
+## Pros and Cons of the Options
 
 ### Option 1
 
