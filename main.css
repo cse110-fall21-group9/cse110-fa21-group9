@@ -6,6 +6,10 @@ width: 511px;
 height: 55px;
 left: 250px;
 top: 180px;
+border-radius: 10px;
+padding: 15px;
+font-size: 18px;
+font-family:verdana,sans-serif;
 
 background: #C4C4C4;
 }
@@ -16,6 +20,10 @@ width: 511px;
 height: 151px;
 left: 250px;
 top: 290px;
+border-radius: 10px;
+padding: 15px;
+font-size: 18px;
+font-family:verdana,sans-serif;
 
 background: #C4C4C4;
 }
@@ -26,6 +34,10 @@ width: 515px;
 height: 259px;
 left: 250px;
 top: 495px;
+border-radius: 10px;
+padding: 15px;
+font-size: 18px;
+font-family:verdana,sans-serif;
 
 background: #C4C4C4;
 }
@@ -33,43 +45,52 @@ background: #C4C4C4;
 #SaveButton{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-evenly;
 align-items: center;
 padding: 10px 20px;
+font-size: 18px;
+font-family:verdana,sans-serif;
 
 position: absolute;
-width: 163px;
+width: 160px;
 height: 57px;
-left: 1057px;
+left: 1020px;
 top: 565px;
 
 border: 1px solid #000000;
 border-radius: 40px;
+background-color: rgb(243, 195, 131);
 }
 
 #DiscardButton{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-evenly;
 align-items: center;
 padding: 10px 20px;
+font-size: 18px;
+font-family:verdana,sans-serif;
     
 position: absolute;
-width: 163px;
+width: 160px;
 height: 57px;
-left: 1057px;
+left: 1020px;
 top: 650px;
     
 border: 1px solid #000000;
 border-radius: 40px;
+background-color: rgb(243, 195, 131);
 }
 
 #Photo{
 position: absolute;
-width: 356px;
-height: 260px;
-left: 1057px;
+width: 500px;
+height: 330px;
+left: 850px;
 top: 180px;
+font-family:verdana,sans-serif;
+font-size: 15px;
+border-radius: 10px;
 
 background: #C4C4C4;
 }
@@ -112,13 +133,13 @@ border: 1px solid #000000;
 
 #nav{
 position: absolute;
-width: 160px;
+width: 200px;
 height: 720px;
 left: 0px;
 top: 60px;
 bottom: 10x;
 
-background-color: #046380;
+background-color: rgb(243, 195, 131);
 
 }
 
@@ -140,48 +161,55 @@ border-radius: 40px;
 }
 
 
+#search-bar{
+  border: 0px;
+  font-size: 18px;
+  height: 30px;
+  width: 300px;
+  padding: 5px;
+}
 
+.search-icon {
+  width: 22px;
+  height: 22px;
+  font-family:verdana,sans-serif;
+  font-size: 15px;
+}
+  
 
-/* Need to change the syling since I copied */
 *{
-    /* These values are used here specifically to keep the menu in the proper spot on the display and are not required to create the menu.*/
-    padding:0;
-    margin:0;
-    
-  }
+  /* These values are used here specifically to keep the menu in the proper spot on the display and are not required to create the menu.*/
+  padding:0;
+  margin:0;
   
-  #nav ul{
-    list-style:none;
-    font-family:verdana,sans-serif;
-    font-weight:bold;
-    text-align:left;
-    width:150px;
-  }
-  
-  #nav a:link, a:visited{
-    background-color:#046380;
-    border-bottom:1px solid #efecca;
-    color:#efecca;
-    display:block;
-    text-decoration:none;
-    padding:8px 15px;
-  }
-  
-  #nav a:hover{
-    background-color:#efecca;
-    color:#046380;
-  }
-  
-  #nav a:active{
-    background-color:#a7a37e;
-  }
+}
+
+#nav ul{
+  list-style:none;
+  font-family:verdana,sans-serif;
+  font-weight:bold;
+  text-align:left;
+}
+
+#nav a:link, a:visited{
+  background-color: rgb(243, 195, 131);
+  border-bottom:1px solid rgb(88, 88, 88);
+  color: rgb(88, 88, 88);
+  display:block;
+  text-decoration:none;
+  padding:20px 15px;
+}
+
+#nav a:hover{
+  background-color:#f3efbf;
+  color:rgb(0, 0, 0);
+}
+
+#nav a:active{
+  background-color:#f3efbf;
+}
 
 
 
-  .search-container{
-    width: 490px;
-    display: block;
-    margin: 0 auto;
-  }
   
   
