@@ -11,6 +11,10 @@
 </head>
 
 <body>
+    <!-- TopBar -->
+    <div class="TopBar">
+        <img src="./source/images/cooking.png" id="Logo" alt="Our Website logo">
+    </div>
     <!-- Nav Bar -->
     <nav>
         <div id="nav">
@@ -23,28 +27,31 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid">
-        <!-- TopBar -->
-        <div class="row mb-4 TopBar">
-            <img src="./source/images/cooking.png" id="Logo" alt="Our Website logo">
+    <form id="SearchBar">
+        <div class="col-10">
+            <input type="text" id="search-bar" placeholder="Search for recipe?">
         </div>
+        <div class="col-1">
+            <a href="#"><img class="search-icon" src="./source/images/search-icon.png" alt="SearchIcon"></a>
+        </div>               
+    </form>
+    <div class="container-fluid">
 
         <!-- SearchBar -->
-        <div class="row mb-5">
+        <!--<div class="row mb-5">
             <div class="col-4 offset-3">
 
                 <form id="SearchBar">
-                    <!-- Used for Search Bar Alignment -->
                     <div class="col-10">
                         <input type="text" id="search-bar" placeholder="Search for recipe?">
                     </div>
-                    <div class="col-2">
+                    <div class="col-1">
                         <a href="#"><img class="search-icon" src="./source/images/search-icon.png" alt="SearchIcon"></a>
                     </div>               
                 </form>
 
             </div>
-        </div>
+        </div>-->
         <div class="row mb-4">
             <div class="col-2 offset-3 recipeCards"></div>
             <div class="col-2 offset-1 recipeCards"></div>
