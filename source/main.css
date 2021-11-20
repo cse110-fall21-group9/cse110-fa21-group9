@@ -1,15 +1,25 @@
 /* Recipe Name */
 body {
   flex-direction: column;
+  
   align-items: center;
 }
 
+.Content{
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
 #RecipeName{
-position: absolute;
+/*position: absolute;
 width: 511px;
 height: 55px;
 left: 250px;
-top: 180px;
+top: 180px;*/
+width: 50%;
+height: 10%;
+margin: 2%;
 border-radius: 10px;
 padding: 15px;
 font-size: 18px;
@@ -19,11 +29,14 @@ background: #C4C4C4;
 }
 
 #Ingridents{
-position: absolute;
+/*position: absolute;
 width: 511px;
 height: 151px;
 left: 250px;
-top: 290px;
+top: 290px;*/
+width: 50%;
+height: 50%;
+margin: 2%;
 border-radius: 10px;
 padding: 15px;
 font-size: 18px;
@@ -33,11 +46,14 @@ background: #C4C4C4;
 }
 
 #Instructions{
-position: absolute;
+/*position: absolute;
 width: 515px;
 height: 259px;
 left: 250px;
-top: 495px;
+top: 495px;*/
+width: 50%;
+height: 60%;
+margin: 2%;
 border-radius: 10px;
 padding: 15px;
 font-size: 18px;
@@ -55,11 +71,12 @@ padding: 10px 20px;
 font-size: 18px;
 font-family:verdana,sans-serif;
 
-position: absolute;
+/*position: absolute;
 width: 160px;
 height: 57px;
 left: 1020px;
-top: 565px;
+top: 565px;*/
+width: 15%;
 
 border: 1px solid #000000;
 border-radius: 40px;
@@ -75,11 +92,12 @@ padding: 10px 20px;
 font-size: 18px;
 font-family:verdana,sans-serif;
     
-position: absolute;
+/*position: absolute;
 width: 160px;
 height: 57px;
 left: 1020px;
-top: 650px;
+top: 650px;*/
+width: 15%;
     
 border: 1px solid #000000;
 border-radius: 40px;
@@ -87,11 +105,11 @@ background-color: rgb(243, 195, 131);
 }
 
 #Photo{
-position: absolute;
+/*position: absolute;
 width: 500px;
 height: 330px;
 left: 850px;
-top: 180px;
+top: 180px;*/
 font-family:verdana,sans-serif;
 font-size: 15px;
 border-radius: 10px;
@@ -100,11 +118,9 @@ background: #C4C4C4;
 }
 
 #mainBox{
-position: absolute;
-width: 1116px;
-height: 736px;
-left: 0px;
-top: 134px;
+width: 100%;
+height: 100%;
+flex-direction: column;
 }
 
 .TopBar{

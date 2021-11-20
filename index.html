@@ -11,61 +11,55 @@
 </head>
 
 <body>
-    <!-- TopBar -->
-    <div class="TopBar">
-        <img src="./source/images/cooking.png" id="Logo" alt="Our Website logo">
-    </div>
-    <!-- Nav Bar -->
-    <nav>
-        <div id="nav">
-            <ul>
-                <li><a href="./source/pages/new-recipe.html">New Recipes</a></li>
-                <li><a href="#">Edit Recipes</a></li>
-                <li><a href="#">Favorites</a></li>
-                <li><a href="#">Meal Planner</a></li>
-                <li><a href="#">Shopping List</a></li>
-            </ul>
-        </div>
-    </nav>
-    <form id="SearchBar">
-        <div class="col-10">
-            <input type="text" id="search-bar" placeholder="Search for recipe?">
-        </div>
-        <div class="col-1">
-            <a href="#"><img class="search-icon" src="./source/images/search-icon.png" alt="SearchIcon"></a>
-        </div>               
-    </form>
     <div class="container-fluid">
-
-        <!-- SearchBar -->
-        <!--<div class="row mb-5">
-            <div class="col-4 offset-3">
-
-                <form id="SearchBar">
-                    <div class="col-10">
-                        <input type="text" id="search-bar" placeholder="Search for recipe?">
+        <!-- TopBar -->
+        <div class="row TopBar"> <!--row 1-->
+            <img src="./source/images/cooking.png" id="Logo" alt="Our Website logo">
+        </div>
+        <div class="row"> <!--row 2-->
+            <div class="container Content">
+                <!-- Nav Bar -->
+                <nav> <!--col 1-->
+                    <div class="col"> <!--col 1-->
+                        <div id="nav">
+                            <ul>
+                                <li><a href="../pages/new-recipe.html">New Recipes</a></li>
+                                <li><a href="#">Edit Recipes</a></li>
+                                <li><a href="#">Favorites</a></li>
+                                <li><a href="#">Meal Planner</a></li>
+                                <li><a href="#">Shopping List</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-1">
-                        <a href="#"><img class="search-icon" src="./source/images/search-icon.png" alt="SearchIcon"></a>
-                    </div>               
-                </form>
-
+                </nav>
+                <div class="col"> <!--col 2-->
+                    <form id="SearchBar">
+                        <div class="col-10">
+                            <input type="text" id="search-bar" placeholder="Search for recipe?">
+                        </div>
+                        <div class="col-1">
+                            <a href="#"><img class="search-icon" src="./source/images/search-icon.png" alt="SearchIcon"></a>
+                        </div>               
+                    </form>
+                    <div class="container-fluid">
+                        <div class="row mb-4">
+                            <div class="col-2 offset-3 recipeCards"></div>
+                            <div class="col-2 offset-1 recipeCards"></div>
+                            <div class="col-2 offset-1 recipeCards"></div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-2 offset-3 recipeCards"></div>
+                            <div class="col-2 offset-1 recipeCards"></div>
+                            <div class="col-2 offset-1 recipeCards"></div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-2 offset-3 recipeCards"></div>
+                            <div class="col-2 offset-1 recipeCards"></div>
+                            <div class="col-2 offset-1 recipeCards"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>-->
-        <div class="row mb-4">
-            <div class="col-2 offset-3 recipeCards"></div>
-            <div class="col-2 offset-1 recipeCards"></div>
-            <div class="col-2 offset-1 recipeCards"></div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-2 offset-3 recipeCards"></div>
-            <div class="col-2 offset-1 recipeCards"></div>
-            <div class="col-2 offset-1 recipeCards"></div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-2 offset-3 recipeCards"></div>
-            <div class="col-2 offset-1 recipeCards"></div>
-            <div class="col-2 offset-1 recipeCards"></div>
         </div>
     </div>
 </body>

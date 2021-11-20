@@ -11,49 +11,64 @@
 </head>
 
 <body>
-    <div id="Mainbox">
-        <form>
-            <input type="text" id="RecipeName" value="Burrito">
-            <input type="text" id="Ingridents" value="Burrito Ingredients">
-            <input type="text" id="Instructions" value="Instructions">
-        </form>
-        <img src="../images/burrito.jpeg" id="Photo" alt="Picture of the food">
-        <button type="button" id="SaveButton" onclick="alert('Hello world!')">Save</button>
-        <button type="button" id="DiscardButton" onclick="alert('Hello world!')">Discard</button>
-    </div>
-
-    <div class="TopBar">
-        <img src="../images/cooking.png" id="Logo" alt="Our Website logo">
-    </div>
-
-    <nav>
-        <div id="nav">
-            <ul>
-                <li><a href="#">New Recipes</a></li>
-                <li><a href="#">Edit Recipes</a></li>
-                <li><a href="#">Favorites</a></li>
-                <li><a href="#">Meal Planner</a></li>
-                <li><a href="#">Shopping List</a></li>
-            </ul>
+    <div class="container-fluid">
+        <!-- TopBar -->
+        <div class="row TopBar"> <!--row 1-->
+            <img src="../images/cooking.png" id="Logo" alt="Our Website logo">
         </div>
-    </nav>
-
-   <!-- <form id="SearchBar">
-        <input type="text" id="search-bar" placeholder="Search for recipe?">
-        <a href="#"><img class="search-icon" src="../images/search-icon.png" alt="SearchIcon"></a>
-    </form>-->
-
-    <form id="SearchBar">
-        <!-- Used for Search Bar Alignment -->
-        <div class="col-10">
-            <input type="text" id="search-bar" placeholder="Search for recipe?">
+        <div class="row"> <!--row 2-->
+            <div class="container Content">
+                <!-- Nav Bar -->
+                <nav>
+                    <div class="col"> <!--col 1-->
+                        <div id="nav">
+                            <ul>
+                                <li><a href="../pages/new-recipe.html">New Recipes</a></li>
+                                <li><a href="#">Edit Recipes</a></li>
+                                <li><a href="#">Favorites</a></li>
+                                <li><a href="#">Meal Planner</a></li>
+                                <li><a href="#">Shopping List</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </nav>
+                <div class="col"> <!--col 2-->
+                    <form id="SearchBar">
+                        <div class="col-10">
+                            <input type="text" id="search-bar" placeholder="Search for recipe?">
+                        </div>
+                        <div class="col-1">
+                            <a href="#"><img class="search-icon" src="../images/search-icon.png" alt="SearchIcon"></a>
+                        </div>               
+                    </form>
+                    <div class="container">
+                        <div class="col">
+                            <form>
+                                <div class="row">
+                                    <input type="text" id="RecipeName" value="Burrito">
+                                </div>
+                                <div class="row">
+                                    <input type="text" id="Ingridents" value="Burrito Ingredients">
+                                </div>
+                                <div class="row">
+                                    <input type="text" id="Instructions" value="Instructions">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col">
+                            <img src="../images/burrito.jpeg" id="Photo" alt="Picture of the food">
+                            <div class="row">
+                                <button type="button" id="SaveButton" onclick="alert('Hello world!')">Save</button>
+                            </div>
+                            <div class="row">
+                                <button type="button" id="DiscardButton" onclick="alert('Hello world!')">Discard</button>
+                            </div>      
+                        </div>
+                    </div>    
+                </div>
+            </div>
         </div>
-        <div class="col-1">
-            <a href="#"><img class="search-icon" src="../images/search-icon.png" alt="SearchIcon"></a>
-        </div>               
-    </form>
-
-
+    </div>
 
 </body>
 
