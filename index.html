@@ -41,7 +41,7 @@
                         <div class="col-3">
                             <!-- Borrowed from https://mdbootstrap.com/docs/standard/forms/search/ -->
                             <div class="input-group rounded">
-                                <input type="search" class="form-control rounded" placeholder="Search for Recipe" aria-label="Search" aria-describedby="search-addon" style="font-size: 15px;"/>
+                                <input type="search" id="searchBar" class="form-control rounded" placeholder="Search for Recipe" aria-label="Search" aria-describedby="search-addon" style="font-size: 15px;"/>
                                 <span class="input-group-text border-0" id="search-addon">
                                   <i class="fas fa-search"></i>
                                 </span>
@@ -49,320 +49,108 @@
                         </div>
                     </div>
                     <!-- First Recipe Card Row -->
-                    <div class="row mb-4">
-                        <div class="col-3 recipeCards p-0">
-                            <!-- 1st Recipe Card -->
-                            <div class="container-fluid p-0">
-                                <!-- Recipe Image -->
-                                <div class="row mb-2">
-                                    <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img1">
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Name -->
-                                    <div class="col-5 offset-1" id="name1">
-                                        Burrito
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- Favorite Recipe Button -->
-                                        <button type="button" class="btn btn-outline-success" id="fav1">Favorite</button>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Description -->
-                                    <div class="col offset-1" id="info1">
-                                        A scrumptious meal for anytime!
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2 offset-1">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <!-- Recipe Time to Complete -->
-                                    <div class="col-9" id="time1">
-                                        30 minutes
-                                    </div>
+                    <article class="recipe-cards">
+                        <!-- 1st Recipe Card -->
+                        <div class="recipe">
+                            <!-- Recipe Image -->
+                            <div class="image">
+                                <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img1">
+                            </div>
+                            <div class="recipe-content">
+                                <p class="recipe-tags">
+                                    <span class="recipe-tag">Gluten Free</span>
+                                    <span class="recipe-tag">Breakfast</span>
+                                </p>
+                                <!-- Recipe Name -->
+                                <h1 class="title" id="name1"> Burrito</h1>
+                                <!-- Recipe Description -->
+                                <p class="description" id="info1">A scrumptious meal for anytime!</p>
+                                <!-- Recipe Time to Complete -->
+                                <div class="recipe-time">
+                                    <i class="fas fa-clock"></i>
+                                    <time>30 min</time> 
                                 </div>
                             </div>
+                            <!-- Favorite Recipe Button -->
+                            <button type="button" class="btn btn-outline-success" id="fav1">Favorite</button>
                         </div>
-                        <div class="col-3 offset-1 recipeCards p-0">
-                            <!-- 2nd Recipe Card -->
-                            <div class="container-fluid p-0">
-                                <!-- Recipe Image -->
-                                <div class="row mb-2">
-                                    <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img2">
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Name -->
-                                    <div class="col-5 offset-1" id="name2">
-                                        Burrito
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- Favorite Recipe Button -->
-                                        <button type="button" class="btn btn-outline-success" id="fav2">Favorite</button>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Description -->
-                                    <div class="col offset-1" id="info2">
-                                        A scrumptious meal for anytime!
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2 offset-1">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <!-- Recipe Time to Complete -->
-                                    <div class="col-9" id="time2">
-                                        30 minutes
-                                    </div>
+
+                        <!-- 2nd Recipe Card -->
+                        <div class="recipe">
+                            <!-- Recipe Image -->
+                            <div class="image">
+                                <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img1">
+                            </div>
+                            <div class="recipe-content">
+                                <p class="recipe-tags">
+                                    <span class="recipe-tag">Gluten Free</span>
+                                    <span class="recipe-tag">Breakfast</span>
+                                </p>
+                                <!-- Recipe Name -->
+                                <h1 class="title" id="name1"> Burrito</h1>
+                                <!-- Recipe Description -->
+                                <p class="description" id="info1">A scrumptious meal for anytime!</p>
+                                <!-- Recipe Time to Complete -->
+                                <div class="recipe-time">
+                                    <i class="fas fa-clock"></i>
+                                    <time>30 min</time> 
                                 </div>
                             </div>
+                            <!-- Favorite Recipe Button -->
+                            <button type="button" class="btn btn-outline-success" id="fav1">Favorite</button>
                         </div>
-                        <div class="col-3 offset-1 recipeCards p-0">
-                            <!-- 3rd Recipe Card -->
-                            <div class="container-fluid p-0">
-                                <!-- Recipe Image -->
-                                <div class="row mb-2">
-                                    <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img3">
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Name -->
-                                    <div class="col-5 offset-1" id="name3">
-                                        Burrito
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- Favorite Recipe Button -->
-                                        <button type="button" class="btn btn-outline-success" id="fav3">Favorite</button>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Description -->
-                                    <div class="col offset-1" id="info3">
-                                        A scrumptious meal for anytime!
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2 offset-1">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <!-- Recipe Time to Complete -->
-                                    <div class="col-9" id="time3">
-                                        30 minutes
-                                    </div>
+
+                        <!-- 3rd Recipe Card -->
+                        <div class="recipe">
+                            <!-- Recipe Image -->
+                            <div class="image">
+                                <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img1">
+                            </div>
+                            <div class="recipe-content">
+                                <p class="recipe-tags">
+                                    <span class="recipe-tag">Gluten Free</span>
+                                    <span class="recipe-tag">Breakfast</span>
+                                </p>
+                                <!-- Recipe Name -->
+                                <h1 class="title" id="name1"> Burrito</h1>
+                                <!-- Recipe Description -->
+                                <p class="description" id="info1">A scrumptious meal for anytime!</p>
+                                <!-- Recipe Time to Complete -->
+                                <div class="recipe-time">
+                                    <i class="fas fa-clock"></i>
+                                    <time>30 min</time> 
                                 </div>
                             </div>
+                            <!-- Favorite Recipe Button -->
+                            <button type="button" class="btn btn-outline-success" id="fav1">Favorite</button>
                         </div>
-                    </div>
-                    <!-- Second Recipe Card Row -->
-                    <div class="row mb-4">
-                        <div class="col-3 recipeCards p-0">
-                            <!-- 4th Recipe Card -->
-                            <div class="container-fluid p-0">
-                                <!-- Recipe Image -->
-                                <div class="row mb-2">
-                                    <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img4">
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Name -->
-                                    <div class="col-5 offset-1" id="name4">
-                                        Burrito
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- Favorite Recipe Button -->
-                                        <button type="button" class="btn btn-outline-success" id="fav4">Favorite</button>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Description -->
-                                    <div class="col offset-1" id="info4">
-                                        A scrumptious meal for anytime!
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2 offset-1">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <!-- Recipe Time to Complete -->
-                                    <div class="col-9" id="time4">
-                                        30 minutes
-                                    </div>
+
+                        <!-- 4th Recipe Card -->  
+                        <div class="recipe">
+                            <!-- Recipe Image -->
+                            <div class="image">
+                                <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img1">
+                            </div>
+                            <div class="recipe-content">
+                                <p class="recipe-tags">
+                                    <span class="recipe-tag">Gluten Free</span>
+                                    <span class="recipe-tag">Breakfast</span>
+                                </p>
+                                <!-- Recipe Name -->
+                                <h1 class="title" id="name1"> Burrito</h1>
+                                <!-- Recipe Description -->
+                                <p class="description" id="info1">A scrumptious meal for anytime!</p>
+                                <!-- Recipe Time to Complete -->
+                                <div class="recipe-time">
+                                    <i class="fas fa-clock"></i>
+                                    <time>30 min</time> 
                                 </div>
                             </div>
+                            <!-- Favorite Recipe Button -->
+                            <button type="button" class="btn btn-outline-success" id="fav1">Favorite</button>
                         </div>
-                        <div class="col-3 offset-1 recipeCards p-0">
-                            <!-- 5th Recipe Card -->
-                            <div class="container-fluid p-0">
-                                <!-- Recipe Image -->
-                                <div class="row mb-2">
-                                    <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img5">
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Name -->
-                                    <div class="col-5 offset-1" id="name5">
-                                        Burrito
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- Favorite Recipe Button -->
-                                        <button type="button" class="btn btn-outline-success" id="fav5">Favorite</button>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Description -->
-                                    <div class="col offset-1" id="info5">
-                                        A scrumptious meal for anytime!
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2 offset-1">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <!-- Recipe Time to Complete -->
-                                    <div class="col-9" id="time5">
-                                        30 minutes
-                                    </div>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="col-3 offset-1 recipeCards p-0">
-                            <!-- 6th Recipe Card -->
-                            <div class="container-fluid p-0">
-                                <!-- Recipe Image -->
-                                <div class="row mb-2">
-                                    <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img6">
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Name -->
-                                    <div class="col-5 offset-1" id="name6">
-                                        Burrito
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- Favorite Recipe Button -->
-                                        <button type="button" class="btn btn-outline-success" id="fav6">Favorite</button>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Description -->
-                                    <div class="col offset-1" id="info6">
-                                        A scrumptious meal for anytime!
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2 offset-1">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <!-- Recipe Time to Complete -->
-                                    <div class="col-9" id="time6">
-                                        30 minutes
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Third Recipe Card Row -->
-                    <div class="row mb-4">
-                        <div class="col-3 recipeCards">
-                            <!-- 7th Recipe Card -->
-                            <div class="container-fluid p-0">
-                                <!-- Recipe Image -->
-                                <div class="row mb-2">
-                                    <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img7">
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Name -->
-                                    <div class="col-5 offset-1" id="name7">
-                                        Burrito
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- Favorite Recipe Button -->
-                                        <button type="button" class="btn btn-outline-success" id="fav7">Favorite</button>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Description -->
-                                    <div class="col offset-1" id="info7">
-                                        A scrumptious meal for anytime!
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2 offset-1">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <!-- Recipe Time to Complete -->
-                                    <div class="col-9" id="time7">
-                                        30 minutes
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3 offset-1 recipeCards p-0">
-                            <!-- 8th Recipe Card -->
-                            <div class="container-fluid p-0">
-                                <!-- Recipe Image -->
-                                <div class="row mb-2">
-                                    <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img8">
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Name -->
-                                    <div class="col-5 offset-1" id="name8">
-                                        Burrito
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- Favorite Recipe Button -->
-                                        <button type="button" class="btn btn-outline-success" id="fav8">Favorite</button>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Description -->
-                                    <div class="col offset-1" id="info8">
-                                        A scrumptious meal for anytime!
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2 offset-1">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <!-- Recipe Time to Complete -->
-                                    <div class="col-9" id="time8">
-                                        30 minutes
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3 offset-1 recipeCards p-0">
-                            <!-- 9th Recipe Card -->
-                            <div class="container-fluid p-0">
-                                <!-- Recipe Image -->
-                                <div class="row mb-2">
-                                    <img src="source/images/burrito.jpeg" class="img-fluid" alt="Default Food" id="img9">
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Name -->
-                                    <div class="col-5 offset-1" id="name9">
-                                        Burrito
-                                    </div>
-                                    <div class="col-6">
-                                        <!-- Favorite Recipe Button -->
-                                        <button type="button" class="btn btn-outline-success" id="fav9">Favorite</button>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <!-- Recipe Description -->
-                                    <div class="col offset-1" id="info9">
-                                        A scrumptious meal for anytime!
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-2 offset-1">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <!-- Recipe Time to Complete -->
-                                    <div class="col-9" id="time9">
-                                        30 minutes
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </article>
+                    
                 </div>
             </div>
         </div>
