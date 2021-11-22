@@ -1,7 +1,7 @@
-# ADR - 004: Import/Export & File Formats
+# ADR - 011: Import/Export & File Storage
 
 * Status: Under Review
-* Date: 11/10/2021
+* Date: 11/19/2021
 
 ## Context and Problem Statement
 
@@ -13,10 +13,35 @@ Additionally, how will recipe card data be stored?
 * Global edit mode will allow the user to select multiple recipes to export.
 * We want communication between users to consist of only a few steps.
 * We know that we will want to use JSON as it is conveniently built-in and will likely be supported by APIs.
+* Our standard JSON format is reproduced below:
+
+```JSON
+// Note that the ingredients and steps part are JS arrays. This is so that we can future-proof our data structures
+// in case we want to discretize the steps and parse them for more information in the future. 
+// For now, access using JSONObj.ingredients[0] or similar.
+{
+  "recipe_id": "",
+  "name": "",
+  "image": ".png",
+  "metadata": {
+     "time_added": <DateTime>,
+     "labels": [],
+     "src_url": "",
+  },
+  "metrics": {
+      "cook_time": <int>, // minutes
+      "prep_time": <int>, // minutes
+      "servings": <int>,
+  },
+  "ingredients": [],
+  "steps": [],
+}
+```
 
 ## Decision Outcome
+The decisions that we have come out with are enumerated below.
 
-### File Formats
+### File Storage
 1. Each recipe card/data pack will be stored as an individual JSON file in a designated subdirectory of our app.
 2. This subdirectory will be scanned when the app launches and all the recipe cards will be loaded in.
 
