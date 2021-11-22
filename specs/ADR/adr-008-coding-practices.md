@@ -1,7 +1,7 @@
 # Coding Standards Doc
 Author: Zane Wang
 
-As per the professor's suggestions in the Nov. 11 bonus lecture (the notes for which can be found under the *Coding - Best Practices* section, coupled with my own expectations for what is architecturally sound code, I will be enforcing certain structural standards for our code beyond what ESLint might expect.
+As per the professor's suggestions in the Nov. 11 bonus lecture (the notes for which can be found under the *Coding - Best Practices* section in my class notes doc), coupled with my own expectations for what is architecturally sound code, I will be enforcing certain structural standards for our code beyond what ESLint might expect.
 
 ## Naming Conventions
 JS name conventions resemble Java. Good symbol names improve readability, but also help us avoid namespace collisions and general confusion. **We share the global namespace with every module we import**. This means that our script-level functions need to be named as precisely as possible to avoid possible collisions with function handles in other files, and particularly in APIs we use. Functions that belong to ECMAScript 6 `class` declarations will not have this issue.
@@ -16,7 +16,7 @@ Write comments! You know how to write good comments from previous CSE classes. O
 Also, make use of annotations like
 // TODO: code to complete, indicate details if possible
 // HACK: shortcut or ugly workaround. Indicate the owner, date, and details of the hack
-// FIXME: code that is currently not performant or not working that needs to be changed so that it works. a serious problem that needs to be fixed ASAP.
+// FIXME: code that is currently not performant or straight up not working. A serious problem that needs to be fixed ASAP.
 
 Also, *clean up all commented out code* so that ***none** of it appears in our production build*. We *will* be graded on how much unnecessary junk is in our production code, so please keep this in mind. Ideally, we'd automate our build pipeline to also catch dead code and remove it automatically.
 
@@ -30,7 +30,7 @@ There are very very few reasons to use unbound literals in any code. **You do NO
 
 Ways to get around this include:
 - Bind all strings & numbers to variables
-- Use dictionaries to implement Java-style enumerations (`enum`)
+- Use dictionaries or classes with static variables to implement Java-style enumerations (`enum`)
 
 ## Separation of Concerns
 
