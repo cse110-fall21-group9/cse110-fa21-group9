@@ -20,24 +20,24 @@ Additionally, how will recipe card data be stored?
 // in case we want to discretize the steps and parse them for more information in the future. 
 // For now, access using JSONObj.ingredients[0] or similar.
 {
-  "recipe_id": "",
+  "recipe_id": "", // possibly unneeeded, we will see
   "name": "",
   "image": ".png",
   "metadata": {
      "time_added": <DateTime>,
      "labels": [],
-     "src_url": "",
+     "src_url": ""
   },
   "metrics": {
       "cook_time": <int>, // minutes
       "prep_time": <int>, // minutes
-      "servings": <int>,
+      "servings": <int>
   },
+  "tagline": "", // blurb about recipe, short
   "ingredients": [],
-  "steps": [],
+  "steps": []
 }
 ```
-
 ## Decision Outcome
 The decisions that we have come out with are enumerated below.
 

@@ -29,21 +29,22 @@ Our standard JSON format will be as follows:
 // in case we want to discretize the steps and parse them for more information in the future. 
 // For now, access using JSONObj.ingredients[0] or similar.
 {
-  "recipe_id": "",
+  "recipe_id": "", // possibly unneeeded, we will see
   "name": "",
   "image": ".png",
   "metadata": {
      "time_added": <DateTime>,
      "labels": [],
-     "src_url": "",
+     "src_url": ""
   },
   "metrics": {
       "cook_time": <int>, // minutes
       "prep_time": <int>, // minutes
-      "servings": <int>,
+      "servings": <int>
   },
+  "tagline": "", // blurb about recipe, short
   "ingredients": [],
-  "steps": [],
+  "steps": []
 }
 ```
 We are going to keep our JSON format as shallow as possible to make it easy on our devs. We do not need to store that much info anyways.
