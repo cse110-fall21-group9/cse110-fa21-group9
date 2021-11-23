@@ -1,0 +1,17 @@
+IOSystem Specs
+1. Create
+	- JSON object made ---> sent to web components
+		   |
+		   ---> sent to IOSystem and written to disk
+2. Read
+	- Load all files from disk into strings --> return JSON objects
+			   |
+			   ---> sent to IOSystem and written to disk
+3. Update
+	- JSON object modified ---> sent to web components
+		   |
+		   ---> sent to IOSystem and overwritten to disk at old location
+4. Delete
+	- JSON object ---> web component destroyed
+		   |
+		   ---> sent to IOSystem and erased from disk at current location
