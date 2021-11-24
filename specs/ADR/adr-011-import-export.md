@@ -31,11 +31,13 @@ Additionally, how will recipe card data be stored?
   "metrics": {
       "cook_time": <int>, // minutes
       "prep_time": <int>, // minutes
-      "servings": <int>
+      "servings": <int>,
+      "calories": <int>
   },
   "tagline": "", // blurb about recipe, short
   "ingredients": [],
-  "steps": []
+  "steps": [],
+  "notes": ""
 }
 ```
 ## Decision Outcome

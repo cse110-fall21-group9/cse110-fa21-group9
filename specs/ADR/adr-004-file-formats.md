@@ -40,11 +40,13 @@ Our standard JSON format will be as follows:
   "metrics": {
       "cook_time": <int>, // minutes
       "prep_time": <int>, // minutes
-      "servings": <int>
+      "servings": <int>,
+      "calories": <int>
   },
   "tagline": "", // blurb about recipe, short
   "ingredients": [],
-  "steps": []
+  "steps": [],
+  "notes": ""
 }
 ```
 We are going to keep our JSON format as shallow as possible to make it easy on our devs. We do not need to store that much info anyways.
