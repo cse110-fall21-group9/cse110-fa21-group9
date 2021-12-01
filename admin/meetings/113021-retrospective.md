@@ -1,6 +1,6 @@
 # Restrospective Meeting
 ## Meeting Information
-**Meeting Date/Time:** 2021.11.27 - 2021.11.30
+**Meeting Date/Time:** 2021.11.27 - 2021.11.30  
 **Meeting Purpose:** Retrospective on First Agile  
 **Meeting Location:** In Person, Zoom, Discord, Messanger  
 **Note Taker:** Chengjing Yuan  
