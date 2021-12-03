@@ -1,7 +1,7 @@
 # Restrospective Meeting
 ## Meeting Information
 **Meeting Date/Time:** 2021.11.27 - 2021.11.30  
-**Meeting Purpose:** Retrospective on First Agile  
+**Meeting Purpose:** Retrospective on Second Agile  
 **Meeting Location:** In Person, Zoom, Discord, Messanger  
 **Note Taker:** Chengjing Yuan  
 
@@ -12,7 +12,8 @@ People who attended:
 - Guy Nir
 - Joshua Singer
 - Stephanie Dao
-- Zane Wange
+- Zane Wang
+- Reshab Mehta
 
 ## Absent
 People who absent:  
