@@ -22,21 +22,3 @@ Which ones will we need, and how will they be structured?
 ## Decision Outcome
 
 All of the above will be prototyped and eventually converted into web components, which will then be integrated into our application.
-
-## Pros and Cons of the Options
-
-### Option 1
-
-* 
-
-### Option 2
-
-* 
- 
-### Option 3
-
-* 
-
-### Option 4
-
-* 
