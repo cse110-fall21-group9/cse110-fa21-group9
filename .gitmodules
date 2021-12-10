@@ -1,0 +1,3 @@
+[submodule "source/Digital-Cookbook-App"]
+	path = source/Digital-Cookbook-App
+	url = git@github.com:cse110-fall21-group9/Digital-Cookbook-App.git
